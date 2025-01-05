@@ -1,0 +1,47 @@
+.wrapper {
+  position: relative;
+}
+
+.wrapper::before,
+.wrapper::after {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+
+.wrapper::after {
+  top: 740px;
+  right: 0%;
+  background-image: url(../images/GabrunMinutes.png);
+}
+.wrapper::before {
+  top: 1640px;
+  right: 0%;
+  background-image: url(../images/GabrunMinutes.png);
+}
+.header {
+  max-width: 750px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 4.4rem;
+}
+.headingText {
+  color: var(--color-body);
+}
+
+.modefier {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  .modefier {
+    margin-left: 6rem;
+    text-align: center;
+  }
+}

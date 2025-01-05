@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+
+  justify-content: center;
+  margin-top: -8rem;
+}
+.Design {
+  display: flex;
+  gap: 0.4rem;
+  margin: 4rem;
+}
+.div1 {
+  width: 16px;
+  height: 6px;
+  background-color: #1f67e799;
+}
+.div2 {
+  width: 6px;
+  height: 6px;
+  background-color: #848ea033;
+  border-radius: 50%;
+}
+.div3 {
+  width: 6px;
+  height: 6px;
+  background-color: #848ea033;
+  border-radius: 50%;
+}

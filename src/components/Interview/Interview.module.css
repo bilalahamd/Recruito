@@ -1,0 +1,42 @@
+.Interview {
+  border: 1px solid #848ea033;
+  max-width: 582px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 13rem 6rem 3rem;
+}
+.Interview::after {
+  content: url(../images/Gabrun.png);
+  position: absolute;
+  top: -15%;
+  left: -10%;
+  width: 391px;
+  height: 391px;
+  z-index: -1;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+.InterviewerImage1 {
+  width: 100%;
+
+  position: relative;
+  box-shadow: -10px 15px 20px -3px rgba(132, 142, 160, 0.5);
+}
+.InterviewerImage2 {
+  width: 30%;
+  position: absolute;
+  right: 12%;
+  bottom: 10%;
+}
+@media (min-width: 768px) {
+  .InterviewerImage2 {
+    right: 6%;
+  }
+}

@@ -1,0 +1,47 @@
+.wrapper {
+  max-width: 582px;
+  border: 1px solid #848ea033;
+
+  padding: 4rem;
+  border-radius: 10px;
+}
+.TestimonilaMedia {
+  display: flex;
+  flex-direction: column;
+  gap: 4.4rem;
+}
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.namecontainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.namecontainer p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+.namecontainer h3 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.imageContainer {
+  width: 46px;
+  height: 46px;
+}
+.Image {
+  width: 100%;
+  border-radius: 50%;
+}
+.description {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #3e4757;
+  margin-left: 3rem;
+}

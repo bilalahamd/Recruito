@@ -1,0 +1,10 @@
+.ShortListed {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  border: 1px solid #848ea033;
+  border-radius: 10px;
+  max-width: 500px;
+  padding: 5rem 5rem;
+  margin: 2rem;
+}

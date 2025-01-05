@@ -1,0 +1,38 @@
+.Resume {
+  border: 1px solid #848ea033;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 8rem 4rem;
+  max-width: 500px;
+  overflow: hidden;
+}
+.Resume::after {
+  content: url(../images/Gabrun.png);
+  position: absolute;
+  top: -35%;
+  left: -30%;
+  width: 10px;
+  height: 10px;
+
+  background-size: 10px 10px;
+  background-position: top left;
+  background-repeat: no-repeat;
+
+  z-index: -1;
+}
+
+.Image1 {
+  width: 100%;
+  object-fit: cover;
+}
+.Image2 {
+  margin-left: 2rem;
+  width: 90%;
+  margin-right: 14rem;
+}
+.Image3 {
+  margin-left: 4rem;
+  width: 80%;
+}

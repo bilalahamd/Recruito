@@ -1,0 +1,38 @@
+.wrapper {
+  position: relative;
+  padding-top: 2rem;
+  background-position: center;
+  background-image: url("../images/mainBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+  background-position: top center;
+  z-index: 1;
+}
+
+.wrapper::before,
+.wrapper::after {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+
+.wrapper::before {
+  bottom: 660px;
+  left: 90px;
+  background-image: url("../images/docker.png");
+}
+
+.wrapper::after {
+  top: 130px;
+  right: 0px;
+  background-image: url("../images/docker.png");
+}
+
+.components {
+  position: relative;
+  z-index: 9999;
+  margin: 0;
+}

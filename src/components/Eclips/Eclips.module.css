@@ -1,0 +1,69 @@
+.Ellipse {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+.memberImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+.container {
+  max-width: 500px;
+  width: 100%;
+  border: 1px solid #848ea033;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+
+  padding: 1rem;
+  position: relative;
+  box-sizing: border-box;
+  transform: rotate(0.6deg);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contentWrapper {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.primaryName {
+  margin: 0;
+  font-size: 1.9rem;
+  font-weight: 500;
+  color: #848ea0;
+  text-align: center;
+}
+
+.ellipseContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+
+.ellipseImage {
+  width: 100%;
+
+  border-radius: 50%;
+}
+
+.percentageText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.9rem;
+  color: #848ea0;
+  font-weight: 500;
+}

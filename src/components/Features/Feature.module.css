@@ -1,0 +1,25 @@
+.Features {
+  margin-top: 4rem;
+  position: relative;
+}
+
+.Features h2,
+p {
+  text-align: center;
+}
+.Features h2 {
+  color: var(--color-heading);
+  margin: 0 0 1.5rem 0;
+}
+.Features p {
+  color: var(--color-body);
+}
+@media (min-width: 768px) {
+  .Features {
+    margin-top: 12rem;
+  }
+  .Features h2,
+  p {
+    text-align: left;
+  }
+}

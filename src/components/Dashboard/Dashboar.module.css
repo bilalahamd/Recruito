@@ -1,0 +1,80 @@
+.wrapper {
+  max-width: 1400px;
+  width: 100%;
+
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  background: inherit;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  height: 40%;
+}
+.smallDiv {
+  max-width: 1180px;
+  width: 100%;
+
+  background-color: #cfd8e34d;
+  border-radius: 30px;
+}
+
+.container {
+  width: 100%;
+  padding: 10px 100px;
+  text-align: center;
+}
+
+.DashboardImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.right {
+  top: 19%;
+  width: 22%;
+  position: absolute;
+  right: -4%;
+}
+.left {
+  top: 40%;
+  width: 22%;
+  position: absolute;
+  left: -2%;
+}
+.dashboarheader {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #3e4757;
+  transform: translateY(20px);
+}
+
+@media (max-width: 1080px) {
+  .right {
+    top: 26%;
+    width: 22%;
+    position: absolute;
+    right: 1%;
+  }
+  .left {
+    top: 41%;
+    width: 22%;
+    position: absolute;
+    left: 1%;
+  }
+}
+@media (max-width: 768px) {
+  .right {
+    display: block;
+    right: 10%;
+    width: 12%;
+    top: 26%;
+  }
+  .left {
+    display: block;
+    left: 12%;
+    width: 12%;
+    top: 41%;
+  }
+}

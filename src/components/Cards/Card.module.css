@@ -1,0 +1,50 @@
+.card {
+  border: 1px solid #848ea033;
+  display: flex;
+  flex-direction: column;
+  max-width: 232px;
+  border-radius: 10px;
+  margin: 0;
+  gap: 0;
+  flex-wrap: wrap;
+}
+
+.card--header {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+.cardHeaderImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 2.4rem;
+  color: var(--color-body);
+  padding: 0;
+}
+.name {
+  font-weight: 500;
+  margin-top: 1.4rem;
+  font-size: 1.6rem;
+}
+.designation {
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: var(--color-body);
+}
+.card__body {
+  margin-top: 4.4rem;
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .card {
+    max-width: 350px;
+  }
+}

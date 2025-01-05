@@ -1,0 +1,78 @@
+.testimonialGrid {
+  position: relative;
+  padding: 12.5rem 0;
+  margin: 0 auto;
+  transform: translateX(-5%);
+  width: 110%;
+}
+.Testimonialheader {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem auto;
+  gap: 4rem;
+}
+
+.testimonial {
+  padding: 2rem 1rem;
+}
+
+.testimonialheading {
+  font-size: 4.4rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.testimonialGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.testimonialGrid > div {
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.testimonialGrid > div:first-child {
+  transform: translateX(-5%);
+}
+
+.testimonialGrid > div:last-child {
+  transform: translateX(10%);
+}
+
+@media (max-width: 1024px) {
+  .testimonialGrid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 1rem;
+    gap: 1rem;
+  }
+
+  .testimonialGrid > div:first-child,
+  .testimonialGrid > div:last-child {
+    transform: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonialGrid {
+    grid-template-columns: 1fr;
+    padding: 0;
+    gap: 1rem;
+    margin: 0 auto;
+  }
+
+  .testimonialGrid > div:first-child,
+  .testimonialGrid > div:last-child {
+    transform: none;
+  }
+}

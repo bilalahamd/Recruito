@@ -1,0 +1,47 @@
+.organization {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10rem;
+}
+.organization__heading {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 4.3rem;
+  color: #3e4757;
+  font-size: 1.4rem;
+}
+.ogilvy,
+.intys,
+.linkedin,
+.gsk {
+  object-fit: cover;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.ogilvy {
+  width: 82px;
+  height: 32px;
+  margin-left: 2.2rem;
+}
+
+.intys {
+  width: 108px;
+  height: 30px;
+}
+
+.linkedin {
+  width: 104px;
+  height: 26px;
+}
+
+.gsk {
+  width: 124px;
+  height: 45px;
+}
+@media (max-width: 768px) {
+  .organization {
+    justify-content: flex-start;
+  }
+}

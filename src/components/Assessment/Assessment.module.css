@@ -1,0 +1,11 @@
+.Assessment {
+  max-width: 582px;
+  border-radius: 10px;
+  border: 1px solid #848ea033;
+  position: relative;
+  padding: 4rem;
+}
+
+img {
+  width: 100%;
+}

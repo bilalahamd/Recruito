@@ -1,0 +1,24 @@
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  margin: 1rem;
+}
+@media (max-width: 768px) {
+  .list {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding: 1rem;
+  }
+
+  .list li {
+    margin: 1rem 0;
+  }
+}

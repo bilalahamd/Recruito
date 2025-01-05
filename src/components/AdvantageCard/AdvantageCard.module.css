@@ -1,0 +1,38 @@
+.container {
+  max-width: 383px;
+  max-height: 276px;
+  border: 1px solid #848ea033;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #848ea033;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.AdvantageCardheading {
+  color: white;
+  font-weight: 500;
+  font-size: 2.1rem;
+}
+.AdvantageCardbody {
+  text-align: center;
+  color: #848ea0;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.wrapper {
+  max-width: 64px;
+  max-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #848ea033;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.streamlineImage {
+  width: 100%;
+}

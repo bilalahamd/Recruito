@@ -1,0 +1,70 @@
+.CardGrid {
+  border: 1px solid #848ea033;
+  margin: 0;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  position: relative;
+  max-width: 582px;
+  padding: 10rem 2rem 5rem 2rem;
+  box-shadow: 0 4px 12px rgba(230, 232, 236, 0.31);
+  overflow: hidden;
+}
+.CardGrid::after {
+  content: url(../images/Gabrun.png);
+  position: absolute;
+  top: -40%;
+  right: 20%;
+  width: 10px;
+  height: 10px;
+
+  background-size: 10px 10px;
+  background-position: top left;
+  background-repeat: no-repeat;
+
+  z-index: -1;
+}
+
+.topcard {
+  background-color: white;
+  position: absolute;
+  top: 15%;
+  left: 48%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  z-index: 2;
+  box-shadow: 0 4px 12px rgba(50, 50, 50, 0.3);
+}
+.spacialcard {
+  max-width: 286px;
+  position: relative;
+}
+.spacialcard::before {
+  content: url(../images/solar.png);
+  width: 24px;
+  position: absolute;
+  margin: 10px 30px;
+}
+@media (max-width: 768px) {
+  .CardGrid {
+    grid-template-columns: 1fr;
+    padding: 5rem 2rem;
+    justify-items: center;
+  }
+
+  .spacialcard {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    margin-top: 2rem;
+  }
+
+  .topcard {
+    position: relative;
+    top: initial;
+    left: initial;
+    transform: none;
+    z-index: 1;
+  }
+}
