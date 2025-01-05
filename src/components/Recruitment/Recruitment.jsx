@@ -22,11 +22,8 @@ const Recruitment = () => {
         </header>
         <div className="block container Grid grid--1x2">
           <Features
-            Heading={
-              <>
-                Candidate Sourcing & <br /> Job Posting
-              </>
-            }
+            Heading={`
+                Candidate Sourcing & Job Posting`}
             Description="Recruito automatically posts your position or actively hunts top candidates across multiple platforms. No human intervention needed."
           />
 
