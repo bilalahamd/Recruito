@@ -1,7 +1,7 @@
 import React from "react";
 import Ogilvy from "../images/Ogilvy.png";
 import Intys from "../images/intys.png";
-import Linkedin from "../images/linkedin.PNG";
+import Linkedin from "../images/linkedin.png";
 import Gsk from "../images/Gsk.png";
 import style from "./Organization.module.css";
 
@@ -12,14 +12,14 @@ const Organizations = () => {
         Trusted by the world leading organisations
       </p>
       <div className={style.organization}>
-        <img src={Gsk} alt="" className={style.gsk} />
-        <img src={Ogilvy} alt="" className={style.ogilvy} />
-        <img src={Intys} alt="" className={style.intys} />
+        <img src={Gsk} alt="Gsk" className={style.gsk} />
+        <img src={Ogilvy} alt="Ogilvy" className={style.ogilvy} />
+        <img src={Intys} alt="Intys" className={style.intys} />
 
-        <img src={Linkedin} alt="" className={style.linkedin} />
+        <img src={Linkedin} alt="Linked In" className={style.linkedin} />
         <img src={Ogilvy} alt="" className={style.ogilvy} />
 
-        <img src={Gsk} alt="" className={style.gsk} />
+        <img src={Gsk} alt="Gsk" className={style.gsk} />
       </div>
     </section>
   );
