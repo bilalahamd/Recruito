@@ -8,8 +8,6 @@ import Assessment from "../Assessment/Assessment";
 import Interview from "../Interview/Interview";
 import ShortListed from "../ShortListed/ShortListed";
 
-import { useScroll } from "framer-motion";
-
 const Recruitment = () => {
   return (
     <section>

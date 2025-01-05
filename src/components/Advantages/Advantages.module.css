@@ -9,7 +9,7 @@
   margin: 0 auto;
   gap: 3rem;
 }
-h2 {
+.header h2 {
   margin-bottom: 4rem;
 }
 .advantagesBlock {
@@ -29,27 +29,27 @@ h2 {
   bottom: 350px;
   left: 130px;
   background-image: url(../images/GabrunHero2.png);
+  z-index: 1;
 }
 
 .advantagesBlock::after {
   top: 260px;
   right: 100px;
   background-image: url(../images/GabrunHero1.png);
+  z-index: 1;
 }
 
 @media (max-width: 1024px) {
-  .advantagesBlock::before {
-    content: "";
-  }
+  .advantagesBlock::before,
   .advantagesBlock::after {
-    content: "";
+    width: 30vw; /* Adjust size for medium screens */
+    height: 30vw;
   }
 }
+
 @media (max-width: 768px) {
-  .advantagesBlock::before {
-    content: "";
-  }
+  .advantagesBlock::before,
   .advantagesBlock::after {
-    content: "";
+    background-image: none; /* Remove background images for screens smaller than 768px */
   }
 }

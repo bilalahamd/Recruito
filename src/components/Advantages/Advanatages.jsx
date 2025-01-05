@@ -5,10 +5,10 @@ import AdvantageCard from "../AdvantageCard/AdvantageCard";
 import Streamline from "../images/streamline.png";
 import Streamline2 from "../images/streamline2.png";
 import Streamline3 from "../images/streamline3.png";
-import { useInView } from "react-intersection-observer";
-import { motion } from "framer-motion";
+
 import { fade } from "../Animation";
 import useScroll from "../useScroll";
+import { motion } from "framer-motion";
 
 const Advanatages = () => {
   const { ref, controls } = useScroll(0.2);
