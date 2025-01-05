@@ -26,7 +26,7 @@ import Design from "./components/Design/Design";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Main />
       <Organizations />
       <Recruitment />
@@ -35,7 +35,7 @@ const App = () => {
       <Testimonial />
       <Design />
       <Footer />
-    </div>
+    </>
   );
 };
 
